@@ -28,7 +28,7 @@ Tras un reinicio forzado, estoy reconstruyendo mi ecosistema digital. Mi enfoque
 
 ### 🌐 Conéctate conmigo
 - [ConfiguroWeb.com](https://www.configuroweb.com)
-- [YouTube - ConfiguroWeb](https://youtube.com/@tu_nuevo_canal)
-- [LinkedIn](https://www.linkedin.com/in/tu_perfil)
+- [YouTube - ConfiguroWeb](https://www.youtube.com/@yoconfiguroweb)
+- [LinkedIn](https://www.linkedin.com/in/mauricio-sevilla/?locale=en)
 
 > "El código es arte cuando resuelve un problema real."
