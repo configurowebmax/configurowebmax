@@ -1,6 +1,6 @@
 # ¡Hola! Soy Mauricio Sevilla (ConfiguroWeb) 🚀
 
-![Banner](https://github-readme-stats.vercel.app/api?username=configurowebmax&show_icons=true&theme=radical&hide_border=true&count_private=true)
+[![GitHub Stats](https://github-readme-stats.vercel.app/api?username=configurowebmax&show_icons=true&theme=dark)](https://github.com/anuraghazra/github-readme-stats)
 
 ### 💻 Sobre mí
 Soy un **Ingeniero de TI con más de 13 años de experiencia** y el creador de **ConfiguroWeb**. Mi pasión es democratizar el software creando aplicaciones accesibles y tutoriales de alta calidad.
