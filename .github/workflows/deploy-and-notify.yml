@@ -1,0 +1,62 @@
+name: Deploy Portfolio & Notify Slack
+
+# =============================================================================
+# FLUJO DE TRABAJO SEGURO (DevSecOps)
+# -----------------------------------------------------------------------------
+# Ninguna credencial se escribe directamente aquí. Todo secreto se inyecta
+# desde GitHub -> Settings -> Secrets and variables -> Actions, y se mapea
+# al entorno del job mediante el bloque `env:` usando `${{ secrets.* }}`.
+# =============================================================================
+
+on:
+  push:
+    branches: [main, master]  # Compatible con rama por defecto moderna y clásica
+  workflow_dispatch: # Permite ejecutarlo manualmente desde la pestaña Actions
+
+# Permisos con principio de mínimo privilegio (recomendado por seguridad)
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# Evita despliegues concurrentes que puedan pisarse
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Checkout del repositorio
+        uses: actions/checkout@v4
+
+      - name: Configurar Pages
+        uses: actions/configure-pages@v5
+
+      - name: Subir el sitio como artefacto
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: '.'
+
+      - name: Desplegar en GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
+
+      # ----------------------------------------------------------------------
+      # NOTIFICACIÓN A SLACK (EJEMPLO PRINCIPAL DE LA TAREA)
+      # El webhook se lee ÚNICAMENTE desde los Secrets del repositorio.
+      # ----------------------------------------------------------------------
+      - name: Notificar resultado a Slack
+        env:
+          # Mapeo del secreto -> variable de entorno del paso.
+          # El valor real NUNCA se imprime en los logs (GitHub lo enmascara).
+          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
+          # El GITHUB_TOKEN se inyecta automáticamente; no requiere crear secreto.
+          GH_REPO: ${{ github.repository }}
+          GH_RUN_ID: ${{ github.run_id }}
+          GH_ACTOR: ${{ github.actor }}
+        run: python .github/scripts/notify_slack.py
