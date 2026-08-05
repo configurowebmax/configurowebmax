@@ -36,8 +36,8 @@ Soy un **Ingeniero de TI con más de 13 años de experiencia** y el creador de *
 ### 📈 Estadísticas de GitHub
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=configurowebmax&show_icons=true&theme=radical&hide_border=true&bg_color=0D1117" alt="Estadísticas de GitHub" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=configurowebmax&layout=compact&theme=radical&hide_border=true&bg_color=0D1117" alt="Lenguajes más usados" />
+  <img src="https://github-readme-stats-eight-theta.vercel.app/api?username=configurowebmax&show_icons=true&theme=radical&hide_border=true&bg_color=0D1117" alt="Estadísticas de GitHub" />
+  <img src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=configurowebmax&layout=compact&theme=radical&hide_border=true&bg_color=0D1117" alt="Lenguajes más usados" />
 </div>
 
 ---
@@ -46,11 +46,11 @@ Soy un **Ingeniero de TI con más de 13 años de experiencia** y el creador de *
 
 <div align="center">
   <a href="https://github.com/configurowebmax/configurowebmax">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=configurowebmax&repo=configurowebmax&theme=radical&hide_border=true&bg_color=0D1117" alt="Perfil GitHub" />
+    <img src="https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=configurowebmax&repo=configurowebmax&theme=radical&hide_border=true&bg_color=0D1117" alt="Perfil GitHub" />
   </a>
   <!-- He agregado tu repositorio nogERA aquí como ejemplo de un buen repo destacado, pero puedes cambiarlo si prefieres -->
   <a href="https://github.com/configurowebmax/nogERA">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=configurowebmax&repo=nogERA&theme=radical&hide_border=true&bg_color=0D1117" alt="Proyecto nogERA" />
+    <img src="https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=configurowebmax&repo=nogERA&theme=radical&hide_border=true&bg_color=0D1117" alt="Proyecto nogERA" />
   </a>
 </div>
 
