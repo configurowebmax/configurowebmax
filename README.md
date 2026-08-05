@@ -48,9 +48,9 @@ Soy un **Ingeniero de TI con más de 13 años de experiencia** y el creador de *
   <a href="https://github.com/configurowebmax/configurowebmax">
     <img src="https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=configurowebmax&repo=configurowebmax&theme=radical&hide_border=true&bg_color=0D1117" alt="Perfil GitHub" />
   </a>
-  <!-- He agregado tu repositorio nogERA aquí como ejemplo de un buen repo destacado, pero puedes cambiarlo si prefieres -->
-  <a href="https://github.com/configurowebmax/nogERA">
-    <img src="https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=configurowebmax&repo=nogERA&theme=radical&hide_border=true&bg_color=0D1117" alt="Proyecto nogERA" />
+  <!-- He agregado tu repositorio generador-paleta-colores aquí como ejemplo de un buen repo destacado, pero puedes cambiarlo si prefieres -->
+  <a href="https://github.com/configurowebmax/generador-paleta-colores">
+    <img src="https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=configurowebmax&repo=generador-paleta-colores&theme=radical&hide_border=true&bg_color=0D1117" alt="Proyecto Generador Paleta Colores" />
   </a>
 </div>
 
