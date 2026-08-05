@@ -6,81 +6,62 @@
 
 ---
 
-### 🚀 Sobre este repositorio
+### 🚀 Sobre mí
 
-Este es mi **portafolio personal** (`Mauricio Sevilla Britto`), un sitio estático construido con **HTML5 + Bootstrap 5**. Además de servir como carta de presentación, lo uso como **laboratorio práctico de DevSecOps**: incluye un flujo de **GitHub Actions** que despliega automáticamente el sitio en **GitHub Pages** y envía una **notificación a Slack**, todo gestionado de forma **segura** mediante *Secrets*.
+Soy un **Ingeniero de TI con más de 13 años de experiencia** y el creador de **[ConfiguroWeb](https://www.configuroweb.com)**. Mi pasión es democratizar el software creando aplicaciones accesibles y tutoriales de alta calidad.
 
-> 🎯 **Mi Estrategia 2026:** Tras un reinicio forzado, estoy reconstruyendo mi ecosistema digital. Mi enfoque actual es la **colaboración Open Source** y la creación de herramientas de automatización.
+- 🛠️ He desarrollado más de **300 aplicaciones** (Python, JS, PHP, Node.js).
+- 🎓 Actualmente profundizando en **Ingeniería de Sistemas** y especializado en **Web Scraping**.
+- 📺 Creador de contenido técnico enfocado en despliegues prácticos y código real.
+- 🎯 **Mi Estrategia 2026:** Tras un reinicio forzado, estoy reconstruyendo mi ecosistema digital. Mi enfoque actual es la **colaboración Open Source** y la creación de herramientas de automatización.
 
 ---
 
 ### 💻 Stack Tecnológico
 
 <div align="center">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="40" alt="python logo"  />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="40" alt="python logo" />
   <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="40" alt="javascript logo"  />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="40" alt="javascript logo" />
   <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" height="40" alt="php logo"  />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" height="40" alt="php logo" />
   <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" height="40" alt="nodejs logo"  />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" height="40" alt="nodejs logo" />
   <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" height="40" alt="mysql logo"  />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" height="40" alt="mysql logo" />
 </div>
-
----
-
-### 🤖 Automatización Segura (DevSecOps)
-
-Este repositorio implementa un pipeline CI/CD seguro. **Ninguna credencial se almacena en el código.**
-
-| Archivo | Descripción |
-|---|---|
-| `.github/workflows/deploy-and-notify.yml` | Despliega en GitHub Pages + notifica a Slack. Usa `${{ secrets.* }}` inyectados en `env:`. |
-| `.github/scripts/notify_slack.py` | Script Python (solo librería estándar) que lee credenciales de `os.environ`, sin dependencias externas. |
-| `SECURITY_SETUP.md` | Guía de configuración de Secrets + recordatorio educativo de seguridad. |
-
-#### 🔧 Configuración rápida del Secret
-
-1. Crea un *Incoming Webhook* en Slack y copia la URL.
-2. En GitHub: `Settings → Secrets and variables → Actions → New repository secret`.
-   - **Name:** `SLACK_WEBHOOK_URL`
-   - **Value:** (pega aquí la URL del webhook).
-
-> 🛡️ **Por qué nunca subir credenciales a Git:** aunque borres el archivo, el secreto queda **permanente en el historial**. Los bots escanean GitHub en busca de claves reales en segundos, y un token filtrado puede permitir acceso automatizado a tu infraestructura. Usa siempre *Repository Secrets*, tokens con *scopes* mínimos, habilita *secret scanning* + *push protection*, y rota las credenciales periódicamente.
-
----
-
-### 📁 Estructura del proyecto
-
-```
-mauricio-sevilla-britto/
-├── index.html                      # Portafolio (HTML + Bootstrap)
-├── .github/
-│   ├── workflows/
-│   │   └── deploy-and-notify.yml   # Pipeline CI/CD seguro
-│   └── scripts/
-│       └── notify_slack.py         # Notificación a Slack (lee creds del entorno)
-├── SECURITY_SETUP.md               # Guía de configuración de secrets
-└── README.md
-```
-
----
-
-### ▶️ Cómo usarlo
-
-1. Haz `push` a la rama `main` (o ejecuta el workflow manualmente desde la pestaña *Actions*).
-2. El sitio se publicará en GitHub Pages.
-3. Recibirás una notificación en el canal de Slack configurado.
 
 ---
 
 ### 📈 Estadísticas de GitHub
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=configurowebmax&show_icons=true&theme=radical&hide_border=true" alt="GitHub Stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=configurowebmax&layout=compact&theme=radical&hide_border=true" alt="Lenguajes más usados" />
+  <img src="https://github-readme-stats.vercel.app/api?username=configurowebmax&show_icons=true&theme=radical&hide_border=true&bg_color=0D1117" alt="Estadísticas de GitHub" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=configurowebmax&layout=compact&theme=radical&hide_border=true&bg_color=0D1117" alt="Lenguajes más usados" />
 </div>
+
+---
+
+### 🤝 Proyectos y Contribuciones
+
+<div align="center">
+  <a href="https://github.com/configurowebmax/configurowebmax">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=configurowebmax&repo=configurowebmax&theme=radical&hide_border=true&bg_color=0D1117" alt="Perfil GitHub" />
+  </a>
+  <!-- He agregado tu repositorio nogERA aquí como ejemplo de un buen repo destacado, pero puedes cambiarlo si prefieres -->
+  <a href="https://github.com/configurowebmax/nogERA">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=configurowebmax&repo=nogERA&theme=radical&hide_border=true&bg_color=0D1117" alt="Proyecto nogERA" />
+  </a>
+</div>
+
+---
+
+### 🤖 Laboratorio DevSecOps
+
+Este repositorio no solo es mi perfil, sino también un **laboratorio práctico**:
+- 🚀 Despliegue automático de portafolio web en **GitHub Pages**.
+- 🔔 Notificaciones seguras a **Slack** gestionadas por *GitHub Actions* y *Secrets*.
+- 🛡️ Si te interesa aprender cómo configurarlo, revisa la [Guía de Seguridad (SECURITY_SETUP.md)](./SECURITY_SETUP.md).
 
 ---
 
