@@ -51,6 +51,9 @@ Soy un **Ingeniero de TI con más de 13 años de experiencia** y el creador de *
   <a href="https://github.com/open-wa/wa-automate-nodejs">
     <img src="https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=open-wa&repo=wa-automate-nodejs&theme=radical&hide_border=true&bg_color=0D1117" alt="Contribución Open WA" />
   </a>
+  <a href="https://github.com/diegosouzapw/OmniRoute">
+    <img src="https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=diegosouzapw&repo=OmniRoute&theme=radical&hide_border=true&bg_color=0D1117" alt="Contribución OmniRoute" />
+  </a>
 </div>
 
 ---
