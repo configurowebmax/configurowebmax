@@ -59,6 +59,8 @@ Soy un **Ingeniero de TI con más de 13 años de experiencia** y el creador de *
   </a>
 </div>
 
+🔧 **Colaboración con [Colibrí](https://github.com/JustVugg/colibri):** [PR #1322 fusionado](https://github.com/JustVugg/colibri/pull/1322) para evitar ofrecer planes de GPU cuando el motor funciona únicamente con CPU.
+
 **Contribución reciente:** [PR #1322 en Colibrí](https://github.com/JustVugg/colibri/pull/1322), fusionado el 5 de septiembre de 2026. La mejora evita ofrecer planes de GPU cuando el motor funciona únicamente con CPU.
 
 ---
