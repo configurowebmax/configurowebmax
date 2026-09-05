@@ -45,6 +45,9 @@ Soy un **Ingeniero de TI con más de 13 años de experiencia** y el creador de *
 ### 🤝 Proyectos y Contribuciones
 
 <div align="center">
+  <a href="https://github.com/JustVugg/colibri/pull/1322">
+    <img src="https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=JustVugg&repo=colibri&theme=radical&hide_border=true&bg_color=0D1117" alt="Contribución a Colibrí" />
+  </a>
   <a href="https://github.com/TechyCSR/OpenCluely">
     <img src="https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=TechyCSR&repo=OpenCluely&theme=radical&hide_border=true&bg_color=0D1117" alt="Contribución OpenCluely" />
   </a>
@@ -55,6 +58,8 @@ Soy un **Ingeniero de TI con más de 13 años de experiencia** y el creador de *
     <img src="https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=diegosouzapw&repo=OmniRoute&theme=radical&hide_border=true&bg_color=0D1117" alt="Contribución OmniRoute" />
   </a>
 </div>
+
+**Contribución reciente:** [PR #1322 en Colibrí](https://github.com/JustVugg/colibri/pull/1322), fusionado el 5 de septiembre de 2026. La mejora evita ofrecer planes de GPU cuando el motor funciona únicamente con CPU.
 
 ---
 
